@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="album_art_width">190dp</dimen>
+    <dimen name="album_art_height">190dp</dimen>
+    <dimen name="album_art_margin">36dp</dimen>
+
+    <dimen name="bubble_size">25dp</dimen>
+    <dimen name="wave_height">60dp</dimen>
+    <dimen name="footer_height">170dp</dimen>
+
+</resources>

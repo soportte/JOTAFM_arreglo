@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "299397051410",
+    "firebase_url": "https://solodroid-project-aac2a.firebaseio.com",
+    "project_id": "solodroid-project-aac2a",
+    "storage_bucket": "solodroid-project-aac2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299397051410:android:bd6ec160808e03fb",
+        "android_client_info": {
+          "package_name": "cero.jotafm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299397051410-4iikf0f6h8b7545m5kgcomf9lpkme1f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZRevVjnN6SzBrlV1HGWSg0g_31wwDEwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299397051410:android:da7ebdc9191c0de8",
+        "android_client_info": {
+          "package_name": "cero.jotafm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299397051410-4iikf0f6h8b7545m5kgcomf9lpkme1f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZRevVjnN6SzBrlV1HGWSg0g_31wwDEwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

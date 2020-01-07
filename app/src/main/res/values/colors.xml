@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app main color-->
+    <color name="colorPrimary">#FF9900</color>
+    <color name="colorPrimaryDark">#FF9900</color>
+    <color name="colorAccent">#FF9900</color>
+
+    <!--button play pause color-->
+    <color name="colorFab">#FF9900</color>
+
+    <!--album art border color-->
+    <color name="colorArtBorder">#FF9900</color>
+
+    <!--swipe down refresh animation color-->
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+
+    <!--social tab color-->
+    <color name="tabIndicatorColor">#FFFFFF</color>
+    <color name="tabSelectedTextColor">#FFFFFF</color>
+    <color name="tabTextColor">#f1f1f1</color>
+
+    <!--other color-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#c7c7c7</color>
+    <color name="black_more_translucent">#99000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="bg_overlay">#000000</color>
+
+</resources>

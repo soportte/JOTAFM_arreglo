@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.3'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "cero.jotafm"
+
+        manifestPlaceholders = [onesignal_app_id: "d0989000-9ff3-4214-a42b-ed8f5a123456",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "REMOTE"]
+
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 128
+        versionName "4.0.1"
+        multiDexEnabled true
+        compileOptions {
+            sourceCompatibility 1.8
+            targetCompatibility 1.8
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+/* IMPORTANT : Highly recommended to keep the library version
+Be careful when update dependencies, different library version may caused error */
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.gms:play-services-ads:18.1.1'
+    implementation 'com.google.firebase:firebase-core:17.0.1'
+    implementation 'com.google.firebase:firebase-messaging:19.0.1'
+    implementation 'com.google.android.exoplayer:exoplayer:2.9.6'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.onesignal:OneSignal:3.11.1'
+    implementation 'com.google.android.ads.consent:consent-library:1.0.7'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.github.claucookie.miniequalizer:library:1.0.0'
+    implementation 'com.labo.kaji:relativepopupwindow:0.3.1'
+    implementation 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.2'
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+    implementation 'androidx.multidex:multidex:2.0.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

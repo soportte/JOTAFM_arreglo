@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="cero JOTA FM ARREGLO/app" />
+      <module fileurl="file://$PROJECT_DIR$/cero JOTA FM ARREGLO.iml" filepath="$PROJECT_DIR$/cero JOTA FM ARREGLO.iml" group="cero JOTA FM ARREGLO" />
+    </modules>
+  </component>
+</project>
